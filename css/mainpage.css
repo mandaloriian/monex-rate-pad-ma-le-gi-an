@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  /* color:#5c5c5c; */
+  color:#807f7f;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+}
+.h2-h2{
+  padding: 15px;
+  text-align: center;
+  font-size: 110%;
+}
+
+.h2-h2 h2{
+  margin-top: 20px;
+}
+
+.h2-h2 span img{
+  object-fit: contain;
+  width: 95px;
+  height: 70px;
+}
+
+
+.secondbodies{
+  box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 10px;
+  /* border:0.5px solid #dddddd; */
+  border-radius: 2px 20px 2px 2px;
+  background:#ffff;
+  padding:5px;
+  width: 90%;
+  max-width: 1024px;
+  margin:auto;
+  border-radius:3px;
+  margin-bottom: 30px;
+}
+
+.secondbodies tr th{
+  background: rgb(250,204,129);
+  background: linear-gradient(90deg, rgba(250,204,129,1) 0%, rgba(244,165,19,1) 100%);
+  color:#ffffff;
+  border-radius: 2px 20px 0px 0px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    /* margin-top: 20px; */
+    font-size: 150%;
+  }
+
+  
+  td, th {
+    /* border: 1px solid #D4A355; */
+    /* border-top: 0.2px solid #facc81; */
+    border-left: 0.2px solid #facc81;
+    border-right: 0.2px solid #facc81;
+    text-align: left;
+    padding: 8px;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ECECEC;
+  }
+
+  th {
+    font-weight: 700;
+  }
+
+
+.firstfooter{
+  border-top:0.5px solid #dddddd;
+  margin-top: auto;
+  background-color: #fff;
+}
+.firstfooter p{
+  background-color: #f8f8f8;
+  margin-top:10px;
+  font-weight:300;
+  text-align: center;
+}
+
+.secondfooter{
+  display: flex;
+  max-width: 1024px;
+  margin:auto;
+  padding-top:12px;
+}
+.secondfooter ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.secondfooter li{
+  padding:0 0 0 12px;
+  font-weight: 300;
+  margin: 0 0 6px 0;
+}
+.secondfooter li a{
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+  text-decoration: none;
+}
+.secondfooter li a:hover{
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.aksesoris{
+  color:#facc81;
+}
+
+
+
+
+
+
+
+  
+
+
+  @media screen and (max-width: 1024px) { 
+    .h2-h2{
+      max-width: 768px;
+      margin:auto;
+    }
+  
+  }
+   
+
+  @media screen and (max-width: 768px){
+    .h2-h2{
+      max-width: 480px;
+      margin:auto;
+    }
+  } 
+
+
+@media screen and (max-width: 480px){
+  .firstfooter p{
+    font-size: small;
+  }
+  
+}
+
+

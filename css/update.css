@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  color:#5c5c5c;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #f7f7f7;
+}
+
+.tooltips{
+  background: rgb(250,204,129);
+  background: linear-gradient(90deg, rgba(250,204,129,1) 0%, rgba(244,165,19,1) 100%);
+  color: #ffff;
+  text-align: center;
+  font-weight: 200;
+  padding:1px;
+}
+.name0user{
+  color:#fff1db;
+  font-weight: 200;
+}
+
+
+.mainpages{
+  background-color: #ffff;
+  margin-bottom:10px;
+}
+.h2-h2{
+  max-width: 1000px;
+  margin:auto;
+  padding:10px;
+  text-align: center;
+  font-size: 110%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.h2-h2 p a{
+  background-color:#5c5c5c;
+  padding:2px;
+  color:white;
+  text-decoration:none;
+  font-weight: 300;
+  font-size: 16px;
+  border-radius:2px;
+}
+
+
+.secondbodies{
+  box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 10px;
+  border:0.5px solid #dddddd;
+  background:#ffff;
+  padding:5px;
+  width: 90%;
+  max-width: 1024px;
+  margin:auto;
+  border-radius:3px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 150%;
+  }
+  td, th {
+    border: 0.50px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ECECEC;
+  }
+
+  th {
+    font-weight: 700;
+  }
+
+  .update-btn{
+    background: rgb(255,174,41);
+    background: linear-gradient(90deg, rgba(255,174,41,1) 100%, rgba(255,186,73,0) 100%);
+    padding:2px;
+    color:white;
+    text-decoration:none;
+    font-weight: 300;
+    font-size: 16px;
+    border-radius:2px;
+}
+.update-btn:hover{
+    color:white;
+    padding:9px;
+    font-weight: 400;
+    text-decoration:underline;
+    background-color: #D4A355;
+}
+
+
+
+
+
+  @media screen and (max-width: 1024px) { 
+    .h2-h2{
+      max-width: 768px;
+      margin:auto;
+    }
+  
+  }
+   
+
+  @media screen and (max-width: 768px){
+    .h2-h2{
+      max-width: 480px;
+      margin:auto;
+    }
+  } 
+   
+  /* For Mobile Portrait View */
+  @media screen and (max-width: 480px){
+    .h2-h2{
+      max-width: 360px;
+      margin:auto;
+    }
+    .h2-h2 span img{
+      object-fit: contain;
+      width: 150px;
+      height: 90px;
+    }
+    .secondbodies{
+      font-size:small;
+    }
+
+
+  }

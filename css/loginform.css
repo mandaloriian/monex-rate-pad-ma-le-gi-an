@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Work Sans', sans-serif;
+    color: #5c5c5c;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ECECEC;
+    margin-top:5%;
+}
+.first-body{
+    display: flex;
+    flex-direction: column;
+    background:#ffff;
+    padding:50px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+    border-radius: 3%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.second-body form img{
+    margin-bottom:10px;
+    width:200px;
+    height: 150px;
+}
+.second-body form label{
+    padding-top:10px;
+    padding-bottom: 9px;
+}
+.second-body input{
+    padding: 10px;
+    border:0.5px solid #DFDFDF;
+}
+.second-body form button{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width:auto;
+    padding:10px;
+    border: 0.5px solid #c5c4c4;
+    border-radius: 5px;
+}
+.second-body form button:hover{
+    border: 0.5px solid #D4A355;
+}
+
+.second-body form p{
+    margin-top: 27px;
+    font-size: 12px;
+}
+.second-body form p a{
+    text-decoration:none;
+}
+.second-body form p a:hover{
+    text-decoration: underline;
+}
+.error{
+    color:#D4A355;
+    background-color: #f2dede;
+    padding:10px
+}
+.menu-login-bawah{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
