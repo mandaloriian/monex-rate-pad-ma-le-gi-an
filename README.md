@@ -11,3 +11,24 @@ Berubah Menjadi
 ````
 <a href="../"></a>
 ````
+***
+## MATA UANG
+* USD(USA
+* AUD(AUSTRALIA
+* EUR
+* GBP
+* SGD
+* JPY
+* MYR
+* CAD
+* CHF
+* NZD
+* RUB
+* CNY
+* HKD
+* INR(INDIA)
+* SAR(SAUDI)
+
+***
+## Live Preview
+--
